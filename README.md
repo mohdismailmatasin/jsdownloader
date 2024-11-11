@@ -85,9 +85,9 @@ If an error occurs during the download process, the script will log the error me
 
 The script uses Node.js and several native modules (https, fs, path, os), which are supported across different operating systems. Let's go over which OS this script can run on:
 
-*   Windows (win32): The script will work fine on Windows, and the downloads will be saved in the Desktop/downloads folder by default.
-*   macOS (darwin): The script will also work on macOS, saving downloads to Desktop/downloads.
-*   Linux (linux): The script works similarly on Linux, saving files to Desktop/downloads.
+*   Windows: The script will work fine on Windows, and the downloads will be saved in the Desktop/downloads folder by default.
+*   macOS: The script will also work on macOS, saving downloads to Desktop/downloads.
+*   Linux: The script works similarly on Linux, saving files to Desktop/downloads.
 
 ## **License**
 
