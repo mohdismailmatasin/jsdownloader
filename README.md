@@ -55,8 +55,8 @@ node downloadManager.js <url/magnet link/.txt>
     
     ```bash
     https://example.com/file1.zip
-    2https://example.com/file2.zip
-    3magnet:?xt=urn:btih:...
+    https://example.com/file2.zip
+    'magnet:?xt=urn:btih:...'
     ```
     
     Then run
