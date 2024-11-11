@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "downloader",
+  "version": "1.0.0",
+  "description": "A downloader script",
+  "main": "download.js",
+  "scripts": {
+    "start": "node download.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
