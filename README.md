@@ -32,7 +32,7 @@ To use the download manager, run the script with a URL or a path to a **.txt** f
 ### **Command Line Usage**
 
 ```bash
-node downloadManager.js <url/magnet link/.txt>
+node jsdownloader.js <url/magnet link/.txt>
 ```
 
 ### **Examples**
@@ -40,13 +40,13 @@ node downloadManager.js <url/magnet link/.txt>
 1.  **Download a single file**
     
     ```bash
-    node downloadManager.js https://example.com/file.zip
+    node jsdownloader.js https://example.com/file.zip
     ```
     
 2.  **Download a magnet link**
     
     ```bash
-    node downloadManager.js magnet:?xt=urn:btih:...
+    node jsdownloader.js magnet:?xt=urn:btih:...
     ```
     
 3.  **Download multiple files from a .txt file**
@@ -62,7 +62,7 @@ node downloadManager.js <url/magnet link/.txt>
     Then run
     
     ```bash
-    node downloadManager.js downloads.txt
+    node jsdownloader.js downloads.txt
     ```
 
 ## **Progress Bar**
