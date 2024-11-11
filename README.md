@@ -81,6 +81,14 @@ The downloaded files will be saved in a **downloads** directory on your desktop,
 
 If an error occurs during the download process, the script will log the error message to the console and continue downloading the next file if applicable.
 
+## **Support**
+
+The script uses Node.js and several native modules (https, fs, path, os), which are supported across different operating systems. Let's go over which OS this script can run on:
+
+*   Windows (win32): The script will work fine on Windows, and the downloads will be saved in the Desktop/downloads folder by default.
+*   macOS (darwin): The script will also work on macOS, saving downloads to Desktop/downloads.
+*   Linux (linux): The script works similarly on Linux, saving files to Desktop/downloads.
+
 ## **License**
 
 This project is licensed under the MIT License. See the LICENSE file for details.
