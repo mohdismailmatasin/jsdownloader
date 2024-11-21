@@ -1,12 +1,13 @@
 {
-  "type": "module",
-  "name": "downloader",
+  "name": "jsdownloader",
   "version": "1.0.0",
-  "description": "A downloader script",
-  "main": "download.js",
+  "main": "jsdownloader.js",
+  "type": "module",
   "scripts": {
-    "start": "node download.js"
+    "start": "node jsdownloader.js"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "webtorrent": "^latest-version"
+  }
 }
+
