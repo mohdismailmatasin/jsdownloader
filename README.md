@@ -49,7 +49,7 @@ node jsdownloader.js <url/magnet link/.txt>
    node jsdownloader.js "magnet:?xt=urn:btih:..."
    ```
    
-   > Magnet link require "quotes".
+   > Magnet links require double quotes.
 
 3. Download multiple files from a **.txt** file. Create a **downloads.txt** file with the following contents:
    
@@ -65,7 +65,7 @@ node jsdownloader.js <url/magnet link/.txt>
    node jsdownloader.js downloads.txt
    ```
    
-   > Drag and drop link to terminal are supported.
+   > Drag and drop links on Terminal is supported.
 
 ## Visual
 
