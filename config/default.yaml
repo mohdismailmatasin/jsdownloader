@@ -1,0 +1,135 @@
+# JS Downloader Configuration File
+
+# Download settings
+download:
+  # Default download directory (relative to user's home directory)
+  directory: "Desktop/downloads"
+  
+  # Maximum concurrent downloads
+  maxConcurrent: 3
+  
+  # Timeout settings (in milliseconds)
+  timeout: 30000
+  
+  # Retry settings
+  maxRetries: 3
+  retryDelay: 1000  # Initial delay, will use exponential backoff
+  
+  # Resume downloads
+  enableResume: true
+  
+  # Chunk size for downloads (in bytes)
+  chunkSize: 1048576  # 1MB
+  
+  # Auto-organize downloads by file type
+  organizeByType: false
+  
+  # Duplicate file handling: 'rename', 'skip', 'overwrite'
+  duplicateHandling: 'rename'
+
+# Progress display settings
+progress:
+  # Show download speed
+  showSpeed: true
+  
+  # Show ETA
+  showETA: true
+  
+  # Show file size
+  showFileSize: true
+  
+  # Progress bar width
+  barWidth: 30
+  
+  # Update interval (in milliseconds)
+  updateInterval: 500
+
+# Logging settings
+logging:
+  # Log level: 'error', 'warn', 'info', 'debug'
+  level: 'info'
+  
+  # Enable file logging
+  enableFileLogging: true
+  
+  # Log file directory
+  logDirectory: "logs"
+  
+  # Maximum log file size (in MB)
+  maxFileSize: 10
+  
+  # Maximum number of log files to keep
+  maxFiles: 5
+
+# Notification settings
+notifications:
+  # Enable desktop notifications
+  enabled: true
+  
+  # Notify on download completion
+  onComplete: true
+  
+  # Notify on download failure
+  onError: true
+
+# Protocol settings
+protocols:
+  # HTTP/HTTPS settings
+  http:
+    # Follow redirects
+    followRedirects: true
+    
+    # Maximum redirects to follow
+    maxRedirects: 5
+    
+    # User agent string
+    userAgent: "JS-Downloader/2.0.0"
+  
+  # FTP settings
+  ftp:
+    # Default port
+    port: 21
+    
+    # Connection timeout
+    timeout: 10000
+  
+  # SFTP settings
+  sftp:
+    # Default port
+    port: 22
+    
+    # Connection timeout
+    timeout: 10000
+
+# Torrent settings
+torrent:
+  # DHT enabled
+  dht: true
+  
+  # Maximum peers
+  maxPeers: 100
+  
+  # Upload/download ratio limit (0 = unlimited)
+  ratioLimit: 0
+  
+  # Seed time after download completion (in minutes, 0 = no seeding)
+  seedTime: 0
+
+# File verification
+verification:
+  # Enable checksum verification
+  enabled: false
+  
+  # Supported hash algorithms: 'md5', 'sha1', 'sha256'
+  algorithm: 'sha256'
+
+# Bandwidth limiting
+bandwidth:
+  # Enable bandwidth limiting
+  enabled: false
+  
+  # Download speed limit (in KB/s, 0 = unlimited)
+  downloadLimit: 0
+  
+  # Upload speed limit (in KB/s, 0 = unlimited)
+  uploadLimit: 0
